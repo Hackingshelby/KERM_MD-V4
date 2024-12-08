@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "DZIgwQ5Q#aIvVmdr7tp-m0i2J11_xxlXqHI31l9FM-3G-CjhJvpg",
+SESSION_ID: process.env.SESSION_ID || "",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 MODE: process.env.MODE || "public",
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
@@ -17,9 +17,9 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",
 PREFIX: process.env.PREFIX || ".",
 FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
-AUTO_REACT: process.env.AUTO_REACT || "false",
-HEART_REACT: process.env.HEART_REACT || "false",
-OWNER_REACT: process.env.OWNER_REACT || "false",
-BOT_NAME: process.env.BOT_NAME || "➺『🌹𝐊𝐈𝐌𝐁𝚵𝐥ꝛ፝֟𝐥𝐘❀𝐊𝐀𝐑𝐌𝐀✿𝐋𝐔𝐂𝚰𝐅𝚵𝚪🌹』࿐",
+AUTO_REACT: process.env.AUTO_REACT || "true",
+HEART_REACT: process.env.HEART_REACT || "true",
+OWNER_REACT: process.env.OWNER_REACT || "true",
+BOT_NAME: process.env.BOT_NAME || "➺『Thomas SHELBY v000』࿐",
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 };
