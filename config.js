@@ -5,13 +5,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID "XJxxgSha#rMq3UtFthMx-iRnCVI85HEdThY8yKQ1_gpbtm8UKxcQ",
+SESSION_ID: process.env.SESSION_ID "",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
-MODE: process.env.MODE || "private",
+MODE: process.env.MODE || "public",
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/qlzvba.jpeg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/7zpb79.jpg",
 ALIVE_MSG: process.env.ALIVE_MSG || "HI DEAR IM ONLINE I'M KERM_MD-V4 WHATSAPP BOT\n\n> 𝖡𝖸 𝖪𝖦𝖳𝖤𝖢𝖧",
 ANTI_LINK: process.env.ANTI_LINK || "false",
 ANTI_BAD: process.env.ANTI_BAD || "true",
